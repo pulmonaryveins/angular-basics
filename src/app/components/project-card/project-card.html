@@ -1,0 +1,22 @@
+<div class="project-card">
+  
+  <div class="card-image">
+    <img [src]="project.iconUrl" [alt]="project.title" />
+  </div>
+  
+  <div class="card-content">
+    <h3>{{ project.title }}</h3>
+    <p class="description">{{ project.description }}</p>
+    
+    <div class="tools-section">
+      <span class="tool-badge" *ngFor="let tool of project.tools">
+        {{ tool }}
+      </span>
+    </div>    
+    
+    <button class="view-btn" (click)="onViewProject()">
+      View Project
+    </button>
+  </div>
+  
+</div>
