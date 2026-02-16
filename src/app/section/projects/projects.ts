@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProjectCard } from '../../components/project-card/project-card';
-import { PROJECTS_DB, Project } from '../../data/db-data';
+import { PROJECTS, Project } from '../../data/projects-data';
 
 
 @Component({
@@ -12,5 +12,5 @@ import { PROJECTS_DB, Project } from '../../data/db-data';
   styleUrl: './projects.css',
 })
 export class Projects {
-  projects: Project[] = PROJECTS_DB;
+  projects: Project[] = PROJECTS;
 }

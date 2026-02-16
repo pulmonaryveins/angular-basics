@@ -3,11 +3,12 @@ import { Navbar } from './components/navbar/navbar';
 import { Home } from './section/home/home';
 import { About } from './section/about/about';
 import { Projects } from './section/projects/projects';
-import { PROJECTS_DB } from './data/db-data';
+import { Experiences } from './section/experiences/experience';
+import { PROJECTS } from './data/projects-data';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Home, About, Projects],
+  imports: [Navbar, Home, About, Projects, Experiences],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
