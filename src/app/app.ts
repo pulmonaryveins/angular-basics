@@ -4,11 +4,12 @@ import { Home } from './section/home/home';
 import { About } from './section/about/about';
 import { Projects } from './section/projects/projects';
 import { Experiences } from './section/experiences/experience';
-import { PROJECTS } from './data/projects-data';
+import { Contact } from './section/contact/contact';
+
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Home, About, Projects, Experiences],
+  imports: [Navbar, Home, About, Projects, Experiences, Contact],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
