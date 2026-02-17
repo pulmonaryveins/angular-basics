@@ -26,9 +26,9 @@ export class About {
   education = [
     {
       degree: 'Bachelor of Science in Information Technology',
-      institution: 'University of Cebu',
-      year: '2021 - Present',
-      description: 'Specializing in Web and Mobile Development'
+      institution: 'University of Cebu Main Campus',
+      year: '2022 - Present',
+      description: 'Specializing UI/UX design, frontend development, and media-related work.'
     }
   ];
 
