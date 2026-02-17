@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class Home {
   name = 'Vince Bryant';
-  title = 'Aspiring Web Developer & UI Designer';
-  description = 'Turning complex ideas into clean, functional, and intuitive digital experiences.';
+  title = 'UI/UX Designer & Frontend Developer';
+  tagline = 'Turning complex ideas into clean, functional, and intuitive digital experiences.';
 }

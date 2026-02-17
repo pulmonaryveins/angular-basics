@@ -1,107 +1,263 @@
-/* Main section - full screen, centered content */
 .about-section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;        /* Pure white background */
-  padding: 100px 20px 40px;
+  background-color: #ffffff;
+  padding: 100px 20px 60px;
 }
 
-/* Content container */
 .about-container {
-  max-width: 900px;
+  max-width: 1400px;
   width: 100%;
-  text-align: center;
   padding: 40px;
 }
 
-/* Main heading "About Me" */
 .section-title {
   font-size: 48px;
   font-weight: 700;
-  color: #000000;                   /* Pure black */
-  margin-bottom: 50px;
+  color: #1a202c;
+  text-align: center;
+  margin-bottom: 10px;
   letter-spacing: -1px;
 }
 
-/* Introduction content wrapper */
-.intro-content {
-  margin-bottom: 60px;
+.title-underline {
+  width: 100px;
+  height: 4px;
+  background-color: #1a202c;
+  margin: 0 auto 60px;
 }
 
-/* Name heading */
-.name {
-  font-size: 32px;
-  font-weight: 600;
-  color: #000000;                
+.about-content {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.profile-card {
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 30px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
   margin-bottom: 12px;
   line-height: 1.2;
 }
 
-/* Role/Job title */
-.role {
-  font-size: 18px;
+.profile-role {
+  font-size: 16px;
   font-weight: 400;
-  color: #666666;                   
-  margin-bottom: 30px;
-  letter-spacing: 0.5px;
+  color: #4a5568;
+  margin-bottom: 16px;
+  line-height: 1.5;
 }
 
-/* Description paragraph */
-.description {
+.profile-location {
+  font-size: 14px;
+  font-weight: 400;
+  color: #718096;
+  margin-top: 8px;
+}
+
+.about-details {
+  color: #1a202c;
+}
+
+.greetings-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+
+.about-description,
+.about-description-2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8;
-  color: #333333;                   /* Dark gray for readability */
-  text-align: center;
-  max-width: 750px;
-  margin: 0 auto;
+  color: #4a5568;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
-/* Skills section wrapper */
 .skills-section {
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 2px solid #e0e0e0;  /* Light gray divider */
+  margin-top: 50px;
 }
-
 
 .skills-title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
-  color: #000000;
-  margin-bottom: 35px;
+  color: #1a202c;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
+.skills-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 24px;
+}
+
+.soft-skills-title {
+  margin-top: 40px;
+}
 
 .skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
 }
 
 .skill-badge {
-  display: inline-block;
-  padding: 12px 28px;
-  background-color: #000000;       
-  color: #ffffff;                   
-  border: 2px solid #000000;
-  border-radius: 25px;
+  background-color: #ffffff;
+  color: #1a202c;
+  padding: 12px 20px;
+  border-radius: 6px;
   font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid #d1d5db;
   transition: all 0.3s ease;
   cursor: default;
 }
 
-/* Hover effect - inverted colors */
 .skill-badge:hover {
-  background-color: #ffffff;        /* White background */
-  color: #000000;                   /* Black text */
-  border: 2px solid #000000;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-color: #9ca3af;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
+.education-section {
+  margin-top: 50px;
+}
+
+.education-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education-card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px 30px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  border-color: #cbd5e0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.education-degree {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.education-institution {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+.education-year {
+  font-size: 14px;
+  font-weight: 500;
+  color: #718096;
+  margin-bottom: 12px;
+}
+
+.education-description {
+  font-size: 14px;
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 350px 1fr;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .profile-card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 80px 15px 40px;
+  }
+
+  .about-container {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .greetings-title {
+    font-size: 24px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

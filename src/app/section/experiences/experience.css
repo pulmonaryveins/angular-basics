@@ -1,37 +1,39 @@
-/* Main section */
 .experience-section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;          /* White background */
+  background-color: #ffffff;        
   padding: 100px 20px 40px;
 }
 
-/* Container */
+.title-underline {
+  width: 100px;
+  height: 4px;
+  background-color: #000000;
+  margin: 0 auto 60px;
+}
+
 .experience-container {
   max-width: 1200px;
   width: 100%;
   text-align: center;
 }
 
-/* Section title */
 .section-title {
   font-size: 48px;
   font-weight: 700;
-  color: #000000;                     /* Black */
+  color: #000000;                     
   margin-bottom: 20px;
 }
 
-/* Subtitle */
 .subtitle {
   font-size: 18px;
   font-weight: 400;
-  color: #666666;                     /* Gray */
+  color: #666666;                     
   margin-bottom: 40px;
 }
 
-/* Experience list */
 .experience-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

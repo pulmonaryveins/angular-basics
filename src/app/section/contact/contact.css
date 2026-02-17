@@ -7,6 +7,14 @@
   padding: 100px 20px 60px;
 }
 
+.title-underline {
+  width: 100px;
+  height: 4px;
+  background-color: #000000;
+  margin: 0 auto 60px;
+}
+
+
 .contact-container {
   max-width: 1000px;
   width: 100%;

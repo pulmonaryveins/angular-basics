@@ -5,11 +5,13 @@ import { About } from './section/about/about';
 import { Projects } from './section/projects/projects';
 import { Experiences } from './section/experiences/experience';
 import { Contact } from './section/contact/contact';
+import { Footer } from './section/footer/footer';
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Home, About, Projects, Experiences, Contact],
+  imports: [Navbar, Home, About, Projects, Experiences, Contact, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

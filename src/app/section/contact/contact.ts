@@ -16,10 +16,9 @@ export class Contact {
     location: 'Cebu City, Philippines'
   };
 
-  // Social links
   socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/yourusername' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername' },
-    { name: 'Facebook', url: 'https://facebook.com/yourusername' }
+    { name: 'GitHub', url: 'https://github.com/pulmonaryveins' },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/pulmonaryveins' },
+    { name: 'Facebook', url: 'https://facebook.com/pulmonaryveins' }
   ];
 }

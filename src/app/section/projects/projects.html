@@ -1,11 +1,21 @@
 <section id="projects" class="projects-section">
   <div class="projects-container">
-    <h1>My Projects</h1>
-    <p class="subtitle">Here are some of the projects I have worked on.</p>
-    
+    <h1 class="section-title">My Projects</h1>
+    <div class="title-underline"></div>
+    <p class="subtitle">Here are some of the projects I have worked on:</p>
+
+    <div class="category-filter">
+      <button 
+        *ngFor="let category of categories" 
+        (click)="filterByCategory(category)"
+        [class.active]="selectedCategory() === category">
+        {{ category }}
+      </button>
+    </div>
+
     <div class="projects-grid">
       <app-project-card 
-        *ngFor="let project of projects" 
+        *ngFor="let project of filteredProjects()" 
         [project]="project">
       </app-project-card>
     </div>

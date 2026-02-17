@@ -11,10 +11,26 @@ import { CommonModule } from '@angular/common';
 export class About {
 
   fullname = 'Vince Bryant Cabunilas';
-  role = 'Web Developer & UI Designer';
-  description = 'I am a passionate web developer and UI designer with over 3 years of experience in creating stunning websites and applications. I specialize in front-end development, using technologies like HTML, CSS, JavaScript, and Angular to build responsive and user-friendly interfaces.';
+  role = 'UI/UX Designer & Frontend Developer';
+  location = 'Based in Cebu City, Philippines';
+  profileImage = 'images/profile/noob.png';
+  
+  description = "I'm a passionate Information Technology student with a focus on UI/UX design, frontend development, and media-related work including graphic design and video editing. I have a solid foundation in UI/UX and frontend development, strengthened through industry experience as a student trainee at Alliance Software Inc., where I collaborated with teams to deliver quality software projects.";
+  
+  description2 = "I also bring leadership experience, having been involved in multiple student organizations focused on media and creative work. I'm constantly exploring the IT and creative fields, and I'm eager to learn and grow in every opportunity that comes my way.";
 
-  skills = ['HTML', 'CSS', 'JavaScript', 'Angular', 'UI Design']
+  skills = ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'MySQL', 'Vite', 'GitHub', 'Git', 'Figma', 'Photoshop', 'Premiere Pro'];
+
+  softSkills = ['Communication', 'Team Collaboration', 'Problem Solving', 'Time Management', 'Adaptability', 'Leadership', 'Critical Thinking', 'Creativity'];
+
+  education = [
+    {
+      degree: 'Bachelor of Science in Information Technology',
+      institution: 'University of Cebu',
+      year: '2021 - Present',
+      description: 'Specializing in Web and Mobile Development'
+    }
+  ];
 
   email = 'vincebryant42@gmail.com';
   phone = '+63 968 200 1034';
