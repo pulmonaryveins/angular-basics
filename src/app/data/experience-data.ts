@@ -9,23 +9,30 @@ export interface Experience {
 export const EXPERIENCES: Experience[] = [
   {
     id: 1,
-    role: 'Frontend Developer',
-    company: 'Tech Solutions Inc.',
-    duration: 'Jan 2020 - Present',
-    description: 'Developed and maintained user-friendly web applications using Angular, TypeScript, and SCSS. Collaborated with designers and backend developers to deliver high-quality products.'
+    role: 'Student Trainee',
+    company: 'Alliance Software, Inc.',
+    duration: 'Aug - Dec 2025',
+    description: 'Designed and developed the frontend interface for a Food Ordering System, ensuring a smooth and intuitive user experience. I also collaborated closely with a team of developers, which enhanced my communication, workflow, and problem-solving skills, while gaining practical experience in UI/UX design and frontend development best practices.'
   },
   {
     id: 2,
-    role: 'UI/UX Designer',
-    company: 'Creative Studio',
-    duration: 'Jun 2018 - Dec 2019',
-    description: 'Designed intuitive user interfaces and improved user experiences for web and mobile applications. Conducted user research and usability testing to enhance product design.'
+    role: 'Graphic Designer',
+    company: 'CESAFI Esports League',
+    duration: 'Apr 2024 - Aug 2025',
+    description: 'Produced creative visual content for pre-season and Season 3 events, helping engage the Cebu gaming community. Managed design deliverables under tight deadlines, which strengthened my time management and creative problem-solving skills, and expanded my expertise in graphic design while learning to perform in high-pressure, live-event environments.'
   },
   {
     id: 3,
-    role: 'Web Developer Intern',
-    company: 'Startup Hub',
-    duration: 'Jan 2017 - May 2018',
-    description: 'Assisted in developing responsive websites and landing pages. Gained hands-on experience with HTML, CSS, and JavaScript.'
+    role: 'Media Director',
+    company: 'Philippine Society of Information Technology Students (PSITS) - UC-MAIN',
+    duration: 'Sep 2023 - Present',
+    description: 'Progressed from a media volunteer to Media Director, where I led a team in graphic design, photography, and video editing to support organizational communication. Developed and implemented media strategies to effectively share information with students and faculty, while mentoring team members to improve their technical skills and strengthen team collaboration.'
+  },
+  {
+    id: 4,
+    role: 'Asst. Undersecretary for Operations / Assistant Media Head',
+    company: 'University of Cebu Council of Presidents - UC-MAIN',
+    duration: 'Sep 2023 - Present',
+    description: 'Supported the planning and execution of major university events by managing technical operations and media coverage. Also helped streamline event coordination and media workflows, while strengthening leadership, communication, and organizational skills through hands-on experience in large-scale projects.'
   }
 ];
