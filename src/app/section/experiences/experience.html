@@ -5,10 +5,11 @@
     <p class="subtitle">Here are some of the roles I've worked in:</p>
 
     <div class="experience-list">
-      <app-experience-card
-        *ngFor="let experience of experiences"
-        [experience]="experience">
-      </app-experience-card>
+      
+      @for (experience of experiences; track experience.id) {
+        <app-experience-card [experience]="experience"></app-experience-card>
+      }
+
     </div>
   </div>
 </section>

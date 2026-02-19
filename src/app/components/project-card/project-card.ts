@@ -16,3 +16,4 @@ export class ProjectCard {
     console.log('View project:', this.project.title);
   }
 }
+ 

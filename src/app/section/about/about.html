@@ -22,27 +22,35 @@
           <h3 class="skills-title">Skills</h3>
           <h4 class="skills-subtitle">Technical Skills</h4>
           <div class="skills-grid">
-            <div class="skill-badge" *ngFor="let skill of skills">
-              {{ skill }}
-            </div>
+
+            @for (skills of skills; track skills) {
+              <div class="skill-badge">{{ skills }}</div>
+            }
+
           </div>
 
           <h4 class="skills-subtitle soft-skills-title">Soft Skills</h4>
           <div class="skills-grid">
-            <div class="skill-badge" *ngFor="let skill of softSkills">
-              {{ skill }}
-            </div>
+
+            @for (softSkills of softSkills; track softSkills) {
+              <div class="skill-badge">{{ softSkills }}</div>
+            }
+
           </div>
         </div>
 
         <div class="education-section">
           <h3 class="education-title">Education</h3>
-          <div class="education-card" *ngFor="let edu of education">
-            <h4 class="education-degree">{{ edu.degree }}</h4>
-            <p class="education-institution">{{ edu.institution }}</p>
-            <p class="education-year">{{ edu.year }}</p>
-            <p class="education-description">{{ edu.description }}</p>
-          </div>
+
+          @for (education of education; track education) {
+            <div class="education-card">
+              <h4 class="education-degree">{{ education.degree }}</h4>
+              <p class="education-institution">{{ education.institution }}</p>
+              <p class="education-year">{{ education.year }}</p>
+              <p class="education-description">{{ education.description }}</p>
+            </div>
+          }
+          
         </div>
       </div>
     </div>
